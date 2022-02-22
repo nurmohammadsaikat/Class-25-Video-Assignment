@@ -128,8 +128,8 @@ ul.my-menu ul li ul li:nth-child(2) a{
 }
 
 .btn-finix:hover span {
-    width: 350px;
-    height: 350px;
+    width: 900px;
+    height: 900px;
 }
 
 /*** Header Section End */
@@ -462,4 +462,147 @@ ul.my-menu ul li ul li:nth-child(2) a{
 .step-timeline ul li p {
     color: #606060;
 }
+
+.calculate-rate {
+    background-color: #FDEBEB;
+    padding: 30px;
+}
+.calculate-rate .choose-title {}
+.calculate-rate .choose-title h6 {
+    color: #606060;
+}
+
+.calculate-from .form-group {
+    margin-bottom: 20px;
+}
+.calculate-from .form-group input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.calculate-from .form-group select {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+}
+.calculate-from .form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
 /* Applay Now Section End */
+
+/* Call To Action Section Start */
+.call-to-action-bg {
+    background-color: #E73C3E;
+    padding: 50px;
+    padding-bottom: 33px;
+    color: #fff;
+    border-radius: 6px;
+}
+.call-to-action-bg h2 {
+    font-size: 36px;
+    font-weight: 400;
+    border-right: 1px solid #ddd;
+}
+
+.call-to-action-phone {
+    margin-top: 16px;
+}
+.call-to-action-phone span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    color: #E73C3E;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 22px;
+}
+.call-to-action-phone a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
+/* Call To Action Section End */
+
+/* Our Company Values Section Start */
+.company-values-text {}
+.values-item {
+    margin-bottom: 10px;
+}
+.values-item .values-icon {
+    font-size: 40px;
+    color: #E73C3E;
+    margin-right: 30px;
+}
+
+.values-text {}
+.values-text h3 {}
+.values-text p {
+    color: #606060;
+}
+
+.our-company-img {
+    margin-top: 66px;
+}
+/* Our Company Values Section End */
+
+/* Service Section Start */
+.service-section {
+    background: #f9fafb;
+    padding: 100px 0;
+}
+
+.service-tab ul li button {
+    border: none;
+    background: none;
+}
+
+.service-tab-item {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 42px !important;
+}
+.service-tab-item li {
+    flex: 1 1 auto;
+    margin-left: 25px;
+}
+.service-tab-item li button.active span  {
+    color: #E73C3E;
+}
+.service-tab-item li button span {
+    background: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 30px;
+    color: #666;
+    margin-left: 20px;
+}
+.service-tab-item li button strong {
+    color: #222;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.service-tab-content-text {
+    padding-left: 30px;
+}
+.service-tab-content-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+.service-tab-content-text ul li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* Service Section End */
